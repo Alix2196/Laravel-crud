@@ -539,10 +539,10 @@ footer {
     font-family: var(--font-family);
 }
 
-.img-product {
+/* .img-product {
     width: 100px;
     height: 80px;
-}
+} */
 
 
 /* ==========================================================================
@@ -580,3 +580,13 @@ footer {
     pointer-events: none;
     color: #ccc;
 } */
+.editar{
+
+    width: 55px;
+    height: 36px;
+    margin-top: 13px;
+    padding-top: 6px;
+    padding-right: 10px;
+    margin-right: 7px;
+    padding-left: 10px;
+}

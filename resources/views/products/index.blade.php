@@ -73,7 +73,7 @@
                             <p>{{ $product->category }}</p>
                             <p>{{ $product->quantity }}</p>
                             <div style="display:flex;">
-                                <a href="{{ route('products.edit', $product->id) }}" class="btn btn-success" style="">
+                                <a href="{{ route('products.edit', $product->id) }}" class="btn btn-success editar" style="width">
                                     <i class="fas fa-pencil-alt"></i>
                                 </a>
                                 <form method="post" action="{{ route('products.destroy', $product->id) }}">
